@@ -9,13 +9,15 @@
 CCD2MD contains several codes for the purpose of increasing the ease of cofolding outputs and simulations.
 CCD2MD can be installed via pip (for versions 1.0.0 and above) via
 >pip install CCD2MD
+
 or to install all optional dependencies
+
 >pip install "CCD2MD[membrane]"
 
 
 The paper associated with this code can be found on JCIM [here](https://doi.org/10.1021/acs.jcim.5c02066). Please note that there have been updates to the code (documented below) since the release of the paper.
 
-For full functionality, including membrane embedding please run ``pip install "CCD2MD[all]"``. Please note that this will not install gromacs, which is required for cg2at-lite/atomistic membrane embedding and all MD information.
+For full functionality, including membrane embedding please run ``pip install "CCD2MD[membrane]"``. Please note that this will not install gromacs, which is required for cg2at-lite/atomistic membrane embedding and all MD information.
 
 This utilises the following packages:
 **MemPrO/MemPrOD**
